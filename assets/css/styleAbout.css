@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,800;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap');
+
+  body{
+  
+  font-family: 'Nunito', sans-serif;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+
+.width-text{
+    width: 663px;
+    left: 61px;
+  }
+  .container{
+    max-width: 1168px!important;
+  }
+  @media (min-width: 1172px){}
+  .container,
+   .container-lg, 
+   .container-md, 
+   .container-sm, 
+   .container-xl {
+      max-width: 1172px;
+  }
+  .navbar{
+    margin-top: 9px;
+      top: 0;
+      position: fixed;
+  }
+  .img-title{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 900;
+  
+  }
+  
+  .call{
+    font-size: 12px;
+    color: #fff;
+  
+  }
+  .contact-info a{
+  color: #fff;
+  font-weight: bold;
+  }
+  .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 16px;
+    font-weight:700;
+    font-family: 'Nunito', sans-serif;}
+    .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+      color: #fff!important;
+  }
+  .nav{
+    margin-right: 12px;
+    
+  }
+  header{
+    position: relative;
+    background-color: #4054B2;
+    background-size: cover;
+    background-repeat: no-repeat;
+      
+   
+  
+  }
+  .headr-back{
+    position: absolute;
+    background-image: url(../img/background-1.jpg);
+    opacity: .25;
+    top:30px;
+
+    background-position-y: -172px ;
+  }
+  .s-about{
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+  }
+  .provide-p{
+    font-size: 32px;
+    font-weight:bold;
+    
+
+  }
+  .icon-flow{
+
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    display: inline-block;
+
+    background-color: #0e49d652;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+    left: 30px;
+    margin-bottom: 25px;
+    -webkit-transition: .4s;
+    transition: all .4s ease;
+  }
+ 
+  
+  .work-flow{
+    background-color: #0c5adb;
+  }
+  .icon-flow span{
+    color:#7897e6;
+  }
+  .start-50 {
+    left: 62%!important;
+}
+.xs-heading span{
+  color: #0c5adb;
+}
+
+  .xs-heading .line::after {
+    background-color: #0c5adb;
+    display:inline-block;
+    width: 40px;
+    height: 3px;
+    bottom: -1px;
+ 
+
+}
+.number-percentage{
+  font-size: 3.2rem;
+  font-family: nunito;
+  color: #000;
+  font-weight: 700;
+  letter-spacing: -1.2px;
+  display: inline-block;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+.bord2  {
+ 
+    width: 24.333333%!important;
+}
+.bord3 {
+
+  width: 24.333333%!important;
+}
+.bord1 {
+
+  width: 24.333333%!important;
+}
+ .bord2::before{
+  position: absolute;
+  content: "";
+  right: 857px;
+  top: 18%;
+  background-color: rgba(0,0,0,.07);
+  width: 3px;
+  height: 50px;
+
+
+}
+
+
+.bord1::before{
+  position: absolute;
+  content: "";
+  right: 543px;
+  top: 15%;
+  left: 508px;
+  background-color: rgba(0,0,0,.07);
+  width: 3px;
+  height: 50px;
+
+}
+.list{
+  position:relative;
+  left: 129px;
+}
+.xs-heading .line {
+  position: relative;
+  display: inline-block;
+  padding-top: 25px;
+  width: 100%;
+}
+.xs-heading .line::after, .xs-heading .line::before {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    top: -1px;
+}
+.boxes .box{
+  position: relative;
+}
+.overly {
+  background-color: rgb(0,0,0,.2);
+
+  transform: scaley(0);
+  transition: .5s;
+}
+
+ .title a{
+  font-size: 19px;
+  text-decoration: none;
+  color: black;
+
+ }
+ .title{
+  text-align:center;
+ }
+ .overly {
+  background-color: rgb(0,0,0,.2);
+
+  transform: scaley(0);
+  transition: .5s;
+}
+.box:hover .overly{
+  transform:scaleY(1) ;
+}
+.hover-area .line {
+  background-color: rgba(255,255,255,.2);
+  width: 100%;
+  height: 3px;
+  display: block;
+  margin-bottom: 15px;
+}
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+}
+ .hover-area .xs-list>li>a {
+  color: #fff;
+  font-size: .9333333333rem;
+}
+.box {
+  border-bottom: 3px solid rgba(12,90,219,.1);
+  transition: all 3.4s ease;
+}
+.box:hover{
+  border-color: #0c5adb;
+}
+.final-h2{
+  color: #0c5adb;
+  margin-bottom: 10px;
+  font-family: Lato,Sans-serif;
+  font-size: 1.8666666667rem;
+  font-weight: 700;
+
+}
+.final-h3{
+  
+    color: #292225;
+    font-family: Nunito,Sans-serif;
+    font-size: 1.8666666667rem;
+    font-weight: 400;
+
+}
+footer{
+  background-image: url(../img/footer-bg.png);
+background-repeat: repeat;
+  background-size: cover;
+ height: 415px;
+
+}
+.foot-pos{
+  top: 108px;
+}
+.op-sec{
+  top: -338px;
+}
+.empty{
+  height: 338px;
+}
+.footer-widget .xs-content-title {
+  color: #35dbb7!important;
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+.footer-widget h4 {
+  font-family: Nunito,sans-serif;}
+
+  .footer-widget .textwidget {
+    color: #fff;
+}
+.footer-widget  .widget_recent_entries{
+  color: #fff;
+  font-size: 21px;
+}
+.copyright p{
+  color:white;
+}
+
+.widget_nav_menu li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;}
+
+.footer-widget.widget_recent_entries ul li a {
+  list-style-type: none;
+  display: block;
+  text-decoration: none;
+  color: white;
+  -webkit-transition: .4s;
+  -o-transition: .4s;
+  transition: all .4s ease;
+  font-weight: 400;
+  font-size: 1.0666666667rem;
+  background: 0 0;
+  padding-left: 0;
+}
+ .post-date {
+  color: #ff3543;
+}
+
+
+.social-list .icon a i {
+  display: block;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 36px;
+  background: #000;
+ 
+  color: #fff;
+  font-size: 14px;
+  transition: all .4s ease;}
+
+  .social-list .icon a i:hover{
+    background:white;
+    color:#000;
+  }
+
+    .social-list a{
+      text-decoration: none;
+    }
+    .icon {
+      margin-top: 15px;
+      width: 3rem;
+      height: 5rem;
+  }
+  .copyright {
+    background-image: url(../img/footer-bg.png);
+    background-position-y: -160px;
+  }
+  .footer-widget ul li a {
+    background: url(../img/list-dotted.png) ;
+    background-position : left;
+   
+    background-repeat: no-repeat;
+    padding-left: 25px;
+  }
+  .footer-widget ul li a:hover{
+    transition: all .3s ease;}

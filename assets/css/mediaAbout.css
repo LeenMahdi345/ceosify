@@ -1,0 +1,34 @@
+@media (max-width: 745px){
+
+.col-md-3{
+    width:50%;
+}
+.col-md-4{
+    width:100%;
+}
+.col-md-6{
+    width:100%;
+}
+}
+@media (max-width: 745px){
+.bord1,bord2,bord3{
+    width:100%;
+}
+
+}
+@media (max-width: 760px){
+    .col-lg-3{
+        width:100%;
+    }
+}
+@media (max-width: 752px){
+.col-lg-3{
+    width:50%;
+}
+.copyrigte-text
+{
+    width:100%;
+}
+
+
+}
